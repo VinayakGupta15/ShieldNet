@@ -1,0 +1,16 @@
+ShieldNet/
+│
+├── backend/  
+│   ├── app.py                # Main backend Flask application.
+│   ├── requirements.txt      # Python dependencies.
+│   ├── reports.txt           # File to store reported incidents.
+│   ├── config.py             # Configuration file (e.g., API keys, constants).
+│   ├── utils.py              # Helper functions (e.g., for file handling).
+│
+├── frontend/
+│   ├── index.html            # Main HTML file for the web interface.
+│   ├── style.css             # Stylesheet for the frontend.
+│   ├── script.js             # JavaScript for frontend logic and API integration.
+│
+├── README.md                 # Project overview and instructions.
+

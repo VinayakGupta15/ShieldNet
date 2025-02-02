@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShieldNet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ShieldNet</h1>
+        <p>Scam Detection and Reporting Platform</p>
+    </header>
+
+    <section id="scan">
+        <h2>Scan Suspicious URL</h2>
+        <input type="text" id="url-input" placeholder="Enter URL to scan">
+        <button onclick="scanURL()">Scan</button>
+        <div id="scan-result"></div>
+    </section>
+
+    <section id="report">
+        <h2>Report an Incident</h2>
+        <textarea id="description" placeholder="Describe the incident"></textarea>
+        <input type="text" id="user-contact" placeholder="Your Contact (Optional)">
+        <button onclick="submitReport()">Submit Report</button>
+        <div id="report-message"></div>
+    </section>
+
+    <section id="reports">
+        <h2>View All Reports</h2>
+        <button onclick="fetchReports()">Fetch Reports</button>
+        <div id="reports-list"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
